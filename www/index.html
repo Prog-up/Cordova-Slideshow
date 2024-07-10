@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Slideshow</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1 class="title">Slideshow</h1>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="img/image1.jpg" class="slide-image">
+            <div class="description">Description N°1</div>
+        </div>
+        <div class="slide fade">
+            <img src="img/image2.jpg" class="slide-image">
+            <div class="description">Description N°2</div>
+        </div>
+        <div class="slide fade">
+            <img src="img/image3.jpg" class="slide-image">
+            <div class="description">Description N°3</div>
+        </div>
+        
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
